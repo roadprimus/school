@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+versions = "*"
+
+[dev-packages]
+flake8 = "*"
+flake8-annotations = "*"
+flake8-import-order = "*"
+flake8-bugbear = "*"
+pep8-naming = "*"
+flake8-builtins = "*"
+flake8-docstrings = "*"
+flake8-isort = "*"
+flake8-comprehensions = "*"
+flake8-bandit = "*"
+flake8-eradicate = "*"
+memory-profiler = "*"
+matplotlib = "*"
+scipy = "*"
+
+[requires]
+python_version = "3.10.5"
