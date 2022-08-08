@@ -2,7 +2,7 @@
 
 
 def bubble(arr: list[int]) -> list:
-    """Bubble sorting method."""
+    """Run Bubble sorting method."""
     length = len(arr)
     for i in range(1, length):
         for j in range(length - i):
